@@ -11,4 +11,5 @@ pip install -r requirements.txt
 ```
 # Add Font Awesome Free
 To add Awesome Free font in django `setting.py` please read the document link below:
-ttps://fontawesome.com/docs/web/use-with/python-django
+
+https://fontawesome.com/docs/web/use-with/python-django
