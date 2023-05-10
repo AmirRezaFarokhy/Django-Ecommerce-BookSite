@@ -3,3 +3,4 @@ django-simple-search==1.0.2
 Pillow==9.2.0
 pipenv==2023.4.20
 psycopg2==2.9.5
+fontawesome_free==5.15.4 
