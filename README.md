@@ -9,3 +9,6 @@ Full Stack development with our team to do this project. A project to order and 
 ```sh
 pip install -r requirements.txt
 ```
+# Add Font Awesome Free
+To add Awesome Free font in django `setting.py` please read the document link below:
+ttps://fontawesome.com/docs/web/use-with/python-django
