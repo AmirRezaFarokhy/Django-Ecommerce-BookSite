@@ -1,5 +1,6 @@
 # Django-Ecommerce-BookSite
 Full Stack development with our team to do this project. A project to order and buy books. The BackEnd site was done by me.
+The Front-End part is written by my dear friend. GitHub link my friend: 
 
 ## Results Video
 
