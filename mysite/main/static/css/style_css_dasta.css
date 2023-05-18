@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color:rgb(81, 81, 219);
+    font-family: sans-serif;
+    }
+    .header{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    
+    }
+    .logo img{
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        margin: 0 75px;
+    }
+    
+    .menu a{
+        text-decoration: none;
+        color: rgb(81, 81, 219);
+    }
+    .menu a:hover{
+        color: black;
+      text-shadow: 0px 0px 20px rgb(81, 81, 219);
+    }
+    
+    .menu ul{
+        display: flex;
+        margin: 25px 35px;
+margin-right: 60px;
+    }
+    .menu li{
+        list-style-type: none;
+        padding: 12px 15px;
+        font-size: 20px;
+        
+    }
+
+
+    .brothers-karamazov{
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 30px;
+        margin: 90px 55px;
+        display: flex;
+        width: 93%;
+        height: 190px;
+        color: #333;
+        background-color:rgb(255, 255, 255);
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       
+    }
+    .brothers-karamazov img{
+        border-radius: 5px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        width: 200px;
+        height: 200px;
+    margin-right: 20px;
+    position: relative;
+    top: -80px;
+    }
+    .brothers-karamazov h1{
+    margin-top: -13px;
+        margin-bottom: 5px;
+    
+    }
+    .brothers-karamazov h4{
+        font-size: 13px;
+        color: rgba(158, 158, 158, 0.927);
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+    .brothers-karamazov h4:hover{
+        color: rgb(208, 2, 2);
+    }
+    
+.Description p{
+    text-align: justify;
+    color: rgb(71, 71, 71);
+}
+.brothers-karamazov button{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    background-color:rgb(81, 81, 219) ;
+    position: relative;
+    left: -70px;
+}
+.brothers-karamazov a:hover{
+    color: #333;
+}
+.brothers-karamazov a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.crime-and-punish-ment{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 90px 55px;
+    display: flex;
+    width: 93%;
+    height: 190px;
+    color: #333;
+    background-color:rgb(255, 255, 255);
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+}
+.crime-and-punish-ment img{
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 200px;
+    height: 200px;
+margin-right: 20px;
+position: relative;
+top: -80px;
+}
+.crime-and-punish-ment h1{
+margin-top: -13px;
+    margin-bottom: 5px;
+
+}
+.crime-and-punish-ment h4{
+    font-size: 13px;
+    color: rgba(158, 158, 158, 0.927);
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.crime-and-punish-ment h4:hover{
+    color: rgb(208, 2, 2);
+}
+
+.Description p{
+text-align: justify;
+color: rgb(71, 71, 71);
+}
+.crime-and-punish-ment button{
+width: 100px;
+height: 40px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0;
+border-radius: 5px;
+background-color:rgb(81, 81, 219) ;
+position: relative;
+left: -70px;
+}
+.crime-and-punish-ment a:hover{
+color: #333;
+}
+.crime-and-punish-ment a {
+text-decoration: none;
+color: white;
+}
+
+
+.Yaddash-Hay-ZirZamini{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 90px 55px;
+    display: flex;
+    width: 93%;
+    height: 190px;
+    color: #333;
+    background-color:rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    }
+.Yaddash-Hay-ZirZamini img{
+border-radius: 5px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+width: 200px;
+height: 200px;
+margin-right: 20px;
+position: relative;
+top: -80px;
+}
+.Yaddash-Hay-ZirZamini h1{
+margin-top: -13px;
+margin-bottom: 5px;
+
+}
+.Yaddash-Hay-ZirZamini h4{
+font-size: 13px;
+color: rgba(158, 158, 158, 0.927);
+display: inline-block;
+margin-bottom: 8px;
+}
+.Yaddash-Hay-ZirZamini h4:hover{
+color: rgb(208, 2, 2);
+}
+
+.Description p{
+text-align: justify;
+color: rgb(71, 71, 71);
+}
+.Yaddash-Hay-ZirZamini button{
+width: 100px;
+height: 40px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0;
+border-radius: 5px;
+background-color:rgb(81, 81, 219) ;
+position: relative;
+left: -70px;
+}
+.Yaddash-Hay-ZirZamini a:hover{
+color: #333;
+}
+.Yaddash-Hay-ZirZamini a {
+text-decoration: none;
+color: white;
+}

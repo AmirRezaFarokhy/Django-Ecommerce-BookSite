@@ -1,0 +1,32 @@
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style_home.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" type="text/css">
+    <title>Home</title>
+</head>
+<body>
+
+   <div class="container">
+
+
+<h1>Hi dear friend !</h1>
+
+
+<h2>Thank you for choosing our site</h2>
+<h2>We hope to get to know each other more <i class="fa fa-heart heart"></i></h2>
+
+ <button><img src="{% static 'Desktop/IMG_20230505_212914_885.jpg' %}"><a href="/authors"> {{Books}}</a></button>
+
+   </div>
+
+</body>
+</html>
+{% endblock %}

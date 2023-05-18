@@ -1,0 +1,58 @@
+
+{% block content %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style_order.css' %}" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Orders</title>
+</head>
+
+<body>
+    
+<div class="container">
+    <div class="logo">
+        <img src="{% static 'Desktop/IMG_20230505_212914_885.jpg' %}">
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>                    
+                    <th>Book</th>
+                    <th>Date</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                {% for order in orders %}
+                <tr>
+                    <td>{{forloop.counter}}</td>
+                    <td>{{order.book_product.book_name}}</td>
+                    <td>{{order.date}}</td>
+                    <td>{{order.price}}</td>
+                    {% if order.status %}
+                    <td><soan class="Completed">Completed</soan></td>
+                    {% else %}
+                    <td><span class="Pending">Pending</span></td>
+                    {% endif %}
+                </tr>
+
+                {% endfor %}
+               
+            </tbody>
+
+        </table>
+ 
+</div>
+
+</body>
+</html>
+{% endblock %}

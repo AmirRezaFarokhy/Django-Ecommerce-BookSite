@@ -1,0 +1,181 @@
+{% extends 'main/base.html' %}
+
+
+{% load static %}
+{% block content %}
+
+
+
+<body>
+  
+
+  <div class="row">
+    {% for b in book %}
+    
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-content">
+              <div class="nav-wrapper">
+                
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    
+                    <!-- <li><a href="{{b}}">{{b}}</a></li> -->
+
+                    {% if b.book_name == 'Boofe Koor' %}       
+                    <div class="boofe-koor">
+
+                      <img src="{% static 'Desktop/Untitled.jpeg' %}" alt="Hi!" />
+
+                    <div class="Description">
+                      <h1>boofe koor</h1>
+                      <h4><i class="fa fa-edit"></i> Publications: ......</h4>
+                      <P>This special section is to give explanations about the books and related publications so that the buyer can get more familiar with the product he/she is buying by reading this section.</P>
+                    </div>
+
+                    <button><a href="{{b}}"><i class="fa fa-shopping-cart"></i> buy</a></button>
+                  </div>
+                    {% endif %}
+
+                    {% if b.book_name == 'Sage Velgard' %}
+                    <div class="sage-velgard">
+
+                      <img src="{% static 'Desktop/Untitledw.jpeg' %}" alt="Hi!" />
+                      
+                    <div class="Description">
+                      <h1>sage velgard</h1>
+                      <h4><i class="fa fa-edit"></i> Publications: ......</h4>
+                      <P>This special section is to give explanations about the books and related publications so that the buyer can get more familiar with the product he/she is buying by reading this section.</P>
+
+                    </div>
+
+                    <button><a href="{{b}}"><i class="fa fa-shopping-cart"></i> buy</a></button>
+                  </div>
+                  
+                    {% endif %}
+
+
+                    {% if b.book_name == 'Saye Roshan' %}
+                    <div class="sayeh-roshan">
+
+                      <img src="{% static 'Desktop/Untitled2.jpeg' %}" alt="Hi!" />
+                      
+                    <div class="Description">
+                      <h1>sayeh roshan</h1>
+                      <h4><i class="fa fa-edit"></i> Publications: ......</h4>
+                      <P>This special section is to give explanations about the books and related publications so that the buyer can get more familiar with the product he/she is buying by reading this section.</P>
+
+                    </div>
+
+                    <button><a href="{{b}}"><i class="fa fa-shopping-cart"></i> buy</a></button>
+                  </div>
+
+                    {% endif %}
+
+
+
+                      {% if b.book_name == 'Samfoni Mordegan' %}
+               
+                      <div class="samfoni-mordegan">
+                        <img src="{% static 'Desktop/OIP_1.jpg' %}" alt="Hi!" />
+                        <div class="Description">
+                          <h1>amfoni mordegan</h1>
+                          <h4><i class="fa fa-edit"></i> Publications: ......</h4>
+                          <P>This special section is to give explanations about the books and related publications so that the buyer can get more familiar with the product he/she is buying by reading this section.</P>
+                      
+                      </div>
+                        <button><a href="{{b}}"><i class="fa fa-shopping-cart"></i> buy</a></button>
+                      </div>
+                    {% endif %}
+
+                    {% if b.book_name == 'Tamaman Makhsos' %}
+                    
+                    <div class="tamaman-makhsoos">
+                    <img src="{% static 'Desktop/sss.jpeg' %}" alt="Hi!" />
+                    <div class="Description">
+                      <h1>tamaman makhsoos</h1>
+                      <h4><i class="fa fa-edit"></i> Publications: ......</h4>
+                      <P>This special section is to give explanations about the books and related publications so that the buyer can get more familiar with the product he/she is buying by reading this section.</P>
+                  
+                    </div>
+                    <button><a href="{{b}}"><i class="fa fa-shopping-cart"></i> buy</a></button>
+                  </div>
+                  {% endif %}
+
+                    {% if b.book_name == 'Crime and Punishment' %}
+                    <div class="crime-and-punish-ment">
+                    <img src="{% static 'Desktop/Crimeandpunishmentcover.jpg' %}" alt="Hi!" />
+                    <div class="Description">
+                      <h1>crime and punish ment</h1>
+                      <h4><i class="fa fa-edit"></i> Publications: ......</h4>
+                      <P>This special section is to give explanations about the books and related publications so that the buyer can get more familiar with the product he/she is buying by reading this section.</P>
+                      
+                    </div>
+                    <button><a href="{{b}}"><i class="fa fa-shopping-cart"></i> buy</a></button>
+                    </div>
+                    {% endif %}
+                
+                    {% if b.book_name == 'The Brothers Karamazov' %}
+                    <div class="brothers-karamazov">
+                    <img src="{% static 'Desktop/images.jpeg' %}" alt="Hi!" />
+                    <div class="Description">
+                      <h1>brothers karamazov</h1>
+                      <h4><i class="fa fa-edit"></i> Publications: ......</h4>
+                      <P>This special section is to give explanations about the books and related publications so that the buyer can get more familiar with the product he/she is buying by reading this section.</P>
+                  
+                  </div>
+                  <button><a href="{{b}}"><i class="fa fa-shopping-cart"></i> buy</a></button>
+                    </div>
+                  {% endif %}
+
+                    {% if b.book_name == 'Bigane' %}
+                    <div class="Biganeh">
+                    <img src="{% static 'Desktop/cb87c3c758f541738f114de55070d73b.jpg2.jpg' %}" alt="Hi!" />
+                    <div class="Description">
+                      <h1>Biganeh</h1>
+                      <h4><i class="fa fa-edit"></i> Publications: </h4>
+                      <P>This special section is to give explanations about the books and related publications so that the buyer can get more familiar with the product he/she is buying by reading this section.</P>
+                  
+                  </div>
+                  <button><a href="{{b}}"><i class="fa fa-shopping-cart"></i> buy</a></button>
+                </div>
+                    {% endif %}
+
+                    {% if b.book_name == 'Soghot' %}
+                    <div class="soghoot">
+                    <img src="{% static 'Desktop/sad.jpg2.jpg' %}" alt="Hi!" />
+                    <div class="Description">
+                      <h1>soghoot</h1>
+                      <h4><i class="fa fa-edit"></i> Publications: niloofar</h4>
+                      <P>This special section is to give explanations about the books and related publications so that the buyer can get more familiar with the product he/she is buying by reading this section.</P>
+                  
+                  </div>
+                  <button><a href="{{b}}"><i class="fa fa-shopping-cart"></i> buy</a></button>
+                </div>
+                  {% endif %}
+
+                    {% if b.book_name == 'Yaddash Hay ZirZamini' %}
+                    <div class="Yaddash-Hay-ZirZamini">
+                    <img src="{% static 'Desktop/xxx.jpeg' %}" alt="Hi!" />
+                    
+                      <div class="Description">
+                        <h1>Yaddash Hay ZirZamini</h1>
+                        <h4><i class="fa fa-edit"></i> Publications: ......</h4>
+                        <P>This special section is to give explanations about the books and related publications so that the buyer can get more familiar with the product he/she is buying by reading this section.</P>
+                       
+                    </div>
+                    <button><a href="{{b}}"><i class="fa fa-shopping-cart"></i> buy</a></button>
+                    </div>
+                  {% endif %}
+
+      </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+    {% endfor %} 
+
+  </body>
+
+{% endblock %}
+
+

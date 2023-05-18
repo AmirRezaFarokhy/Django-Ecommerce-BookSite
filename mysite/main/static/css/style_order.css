@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color:rgb(81, 81, 219) ;
+}
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 15% auto;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.container img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color:rgb(43, 206, 2);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer;
+}
+.container img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background-color:rgb(206, 9, 2);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+table,th,td{
+    border: 2px solid rgb(81, 81, 219);
+    border-collapse: collapse;
+}
+.table{
+    color: rgb(62, 62, 62);
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+    height: 85px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+th:hover{
+    background-color:  rgb(81, 81, 219);
+    color: white;
+    
+}
+td:hover{
+    background-color:  rgb(81, 81, 219);
+    color: white;
+    
+}
+.Completed{
+    color: rgb(43, 206, 2);
+}
+.Pending{
+    color:rgb(206, 9, 2)
+}

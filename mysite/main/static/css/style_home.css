@@ -1,0 +1,63 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(45, 45, 210);
+    font-family: sans-serif;
+    text-align: center;
+}
+.container{
+    width: 50%;
+   
+padding: 50px;
+margin: 200px auto;
+border: 2px solid white;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+.container h1{
+margin-bottom:30px ;
+font-size: 50px;
+color: #ffffffeb;
+text-shadow: 0px 0px 5px gold, 1px 1px 5px rgb(250, 7, 7)
+}
+.container h2{
+    color: #cec4b8;
+    text-shadow: 0px 0px 5px goldenrod;
+
+}
+button{
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+.container a {
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+color: rgb(35, 35, 35);
+}
+.container a:hover {
+    color: rgb(45, 45, 210);
+}
+.container button:active{
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+}
+img{
+
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+.heart{
+    font-size: 25px;
+    color: red;
+    text-shadow: 0px 0px 5px rgb(193, 1, 1);
+}

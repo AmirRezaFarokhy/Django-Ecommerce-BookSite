@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+     background-color: rgb(255, 255, 255);
+     font-family: sans-serif;
+ }
+ .header img{
+     margin: 25px;
+ }
+ .main{
+     width: 70%;
+     height: 600px;
+     margin: 5px auto;
+     border: 1px solid rgb(81, 81, 219);
+     border-radius: 5px;
+     background-color:rgb(81, 81, 219) ;
+     box-shadow: rgb(81, 81, 219,.4) -5px 5px, rgba(81, 81, 219, 0.3) -10px 10px, rgba(81, 81, 219, 0.2) -15px 15px, rgba(81, 81, 219, 0.1) -20px 20px, rgba(81, 81, 219, 0.05) -25px 25px;
+ }
+ .details{
+     position: relative;
+     width: 85%;
+     margin: 5px auto;
+     display: flex;
+     padding: 20px 10px;
+ }
+ .details img {
+     position: relative;
+     border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+     top: -100px;
+     width: 150px;
+     height: 220px;
+     margin-right: 40px;
+ }
+ .details h2{
+     color: rgb(220, 220, 220);
+ }
+ .details h1{
+     color: rgb(220, 220, 220);
+ margin-bottom: 10px;
+ }
+ .fa{
+     color: rgb(56, 56, 56);
+ }
+ 
+ .span{
+     font-size: 30px;
+     animation-name: myspan; 
+     animation-duration: 1.5s; 
+     animation-delay: .09s; 
+     animation-iteration-count: infinite; 
+     animation-timing-function: linear;
+ }
+ @keyframes myspan{
+    0%{
+     color: rgb(165, 119, 3);
+    }
+    50%{
+     color:rgb(255, 183, 0) ;
+    }
+    100%{
+     color:rgb(165, 119, 3) ;
+    }
+ }
+ 
+ 
+ 
+ 
+ .information form{
+     position: relative;
+     top: -85px;
+     width: 80%;
+     height: 390px;
+     margin: 5px auto;
+     padding: 15px 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border: 1px solid rgb(253, 252, 252);
+     border-radius: 10px;
+     background-color: rgb(253, 252, 252);
+     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .information input{
+     padding: 15px;
+     margin-bottom: 7px;
+     width: 80%;
+     border: 0;
+     border-bottom: 2px solid rgb(81, 81, 219);
+     font-size: 13px;
+     font-weight: 900;
+     background-color: rgb(253, 252, 252);
+ }
+ 
+ .information input:hover{
+     border-bottom: 3px solid rgb(81, 81, 219);
+ }
+ .information button{
+     padding: 15px;
+     margin: 5px auto;
+     margin-bottom: 25px;
+     border: 2px solid rgb(81, 81, 219);
+     border-radius: 10px;
+     cursor: pointer;
+     color: rgb(255, 255, 255);
+     background-color: rgb(81, 81, 219);
+     font-weight: 700;
+     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ .information button:hover{
+     color: rgb(81, 81, 219);
+     background-color: rgb(255, 255, 255) ;
+ }
+ .information h1{
+     color: brown;
+     padding: 15px;
+     margin-top: 10px;
+ }
+ .information .fa{
+     position: relative;
+     display: flex;
+     align-self:self-start;
+     right: -40px;
+     top: 45px;
+     font-size: 30px;
+     color:  rgb(73, 73, 73);
+ }

@@ -1,0 +1,60 @@
+{% extends 'main/base.html' %}
+
+{% load static %}
+{% block content %}
+
+
+<body>
+
+      <div class="row">
+        
+          <div class="col s12 m6">
+            <div class="authors">
+
+              <h1><i>  Click on the author's name to display the products</i></h1>
+            </div>
+           
+              {% for a in author %}
+            
+            <div class="{% cycle 'authors1' 'authors2' 'authors3' 'authors4' %}">
+                {% if a.name == 'Abbas' %}
+                
+                    <img src="{% static 'Desktop/author_img/abbas.jpg' %}" >
+                    <h2><a href="{{a.name}}">{{a.name}} {{a.last_name}}</a></h2>
+              
+                    {% endif %}
+
+                {% if a.name == 'Sadegh' %}
+      
+                    <img src="{% static 'Desktop/author_img/sadegh.jpg' %}" >
+                    <h2><a href="{{a.name}}">{{a.name}} {{a.last_name}}</a></h2>
+             
+                    {% endif %}
+
+                {% if a.name == 'alber' %}
+             
+                     <img src="{% static 'Desktop/author_img/alber.jpg' %}" >
+                     <h2><a href="{{a.name}}">{{a.name}} {{a.last_name}}</a></h2>
+             
+                    {% endif %}
+
+                {% if a.name == 'fyodor' %}
+               
+                    <img src="{% static 'Desktop/author_img/fidor.jpg' %}" >
+                    <h2><a href="{{a.name}}">{{a.name}} {{a.last_name}}</a></h2>
+      
+                    {% endif %}
+                  </div>
+                    {% endfor %}   
+        </div>
+          
+      
+  
+
+</div>
+
+
+</body>
+
+
+{% endblock %}

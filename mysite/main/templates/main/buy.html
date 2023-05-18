@@ -1,0 +1,189 @@
+
+
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style_buy.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" type="text/css">
+    <title>buy page</title>
+</head>
+
+<body>
+  <div class="header">
+    <img src="{% static 'Desktop/IMG_20230505_212914_885.jpg' %}"></a>
+ </div>
+
+  <div class="main">
+
+    {% for d in data %}
+            {% if d.book_name == 'Boofe Koor' %}       
+            <div class="details">
+              <img src="{% static 'Desktop/Untitled.jpeg' %}" alt="Hi!" />
+              <div class="matn">
+                <h1><i class="fa fa-book"></i> Buy This {{d.book_name}}</h1>
+                <h1><i class="fa fa-edit"></i> {{d.book_name}}</h1>
+            <h2>The price of this book : <span class="span">{{d.price}} $</span></h2>
+            </div>
+          </div>
+            {% endif %}
+
+            {% if d.book_name == 'Sage Velgard' %}
+            <div class="details">
+            <img src="{% static 'Desktop/Untitledw.jpeg' %}" alt="Hi!" />
+            <div class="matn">
+              <h1><i class="fa fa-book"></i> Buy This {{d.book_name}}</h1>
+              <h1><i class="fa fa-edit"></i> {{d.book_name}}</h1>
+          <h2>The price of this book : <span class="span">{{d.price}} $</span></h2>
+          </div>
+            </div>         
+            {% endif %}
+
+
+            {% if d.book_name == 'Saye Roshan' %}
+            <div class="details">
+              <img src="{% static 'Desktop/Untitled2.jpeg' %}" alt="Hi!" />
+              <div class="matn">
+                <h1><i class="fa fa-book"></i> Buy This {{d.book_name}}</h1>
+                <h1><i class="fa fa-edit"></i> {{d.book_name}}</h1>
+            <h2>The price of this book : <span class="span">{{d.price}} $</span></h2>
+            </div>
+            </div>
+            {% endif %}
+
+              {% if d.book_name == 'Samfoni Mordegan' %}
+       
+              <div class="details">
+                <img src="{% static 'Desktop/OIP_1.jpg' %}" alt="Hi!" />
+                <div class="matn">
+                  <h1><i class="fa fa-book"></i> Buy This {{d.book_name}}</h1>
+                  <h1><i class="fa fa-edit"></i> {{d.book_name}}</h1>
+              <h2>The price of this book : <span class="span">{{d.price}} $</span></h2>
+              </div>
+              </div>
+            {% endif %}
+
+            {% if d.book_name == 'Tamaman Makhsos' %}
+            
+            <div class="details">
+            <img src="{% static 'Desktop/sss.jpeg' %}" alt="Hi!" />
+            <div class="matn">
+              <h1><i class="fa fa-book"></i> Buy This {{d.book_name}}</h1>
+              <h1><i class="fa fa-edit"></i> {{d.book_name}}</h1>
+          <h2>The price of this book : <span class="span">{{d.price}} $</span></h2>
+          </div>
+            </div>
+          {% endif %}
+
+            {% if d.book_name == 'Crime and Punishment' %}
+            <div class="details">
+            <img src="{% static 'Desktop/Crimeandpunishmentcover.jpg' %}" alt="Hi!" />
+            <div class="matn">
+              <h1><i class="fa fa-book"></i> Buy This {{d.book_name}}</h1>
+              <h1><i class="fa fa-edit"></i> {{d.book_name}}</h1>
+          <h2>The price of this book : <span class="span">{{d.price}} $</span></h2>
+          </div>
+            </div>
+            {% endif %}
+        
+            {% if d.book_name == 'The Brothers Karamazov' %}
+            <div class="details">
+            <img src="{% static 'Desktop/images.jpeg' %}" alt="Hi!" />
+            <div class="matn">
+              <h1><i class="fa fa-book"></i> Buy This {{d.book_name}}</h1>
+              <h1><i class="fa fa-edit"></i> {{d.book_name}}</h1>
+          <h2>The price of this book : <span class="span">{{d.price}} $</span></h2>
+          </div>
+          </div>
+          {% endif %}
+
+            {% if d.book_name == 'Bigane' %}
+            <div class="details">
+            <img src="{% static 'Desktop/cb87c3c758f541738f114de55070d73b.jpg2.jpg' %}" alt="Hi!" />
+            <div class="matn">
+              <h1><i class="fa fa-book"></i> Buy This {{d.book_name}}</h1>
+              <h1><i class="fa fa-edit"></i> {{d.book_name}}</h1>
+          <h2>The price of this book : <span class="span">{{d.price}} $</span></h2>
+          </div>
+        </div>
+            {% endif %}
+            
+            {% if d.book_name == 'Soghot' %}
+            <div class="details">
+            <img src="{% static 'Desktop/sad.jpg2.jpg' %}" alt="Hi!" />
+            <div class="matn">
+              <h1><i class="fa fa-book"></i> Buy This {{d.book_name}}</h1>
+              <h1><i class="fa fa-edit"></i> {{d.book_name}}</h1>
+          <h2>The price of this book : <span class="span">{{d.price}} $</span></h2>
+          </div>
+          </div>
+          {% endif %}
+
+            {% if d.book_name == 'Yaddash Hay ZirZamini' %}
+            <div class="details">
+            <img src="{% static 'Desktop/xxx.jpeg' %}" alt="Hi!" />
+            <div class="matn">
+              <h1><i class="fa fa-book"></i> Buy This {{d.book_name}}</h1>
+              <h1><i class="fa fa-edit"></i> {{d.book_name}}</h1>
+          <h2>The price of this book : <span class="span">{{d.price}} $</span></h2>
+          </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+
+
+  
+          <div class="information">
+            <form method="POST">
+              
+                {% csrf_token %}
+
+                {% if error%}
+                <div class="alert alert-danger" role="alert">
+                    {{error}}
+                </div>
+                {% endif %}
+
+                <h1>Complete the requested information</h1>
+ 
+                <!-- firstname -->
+          
+                  <i class="	fa fa-user"></i>
+                  <input type="text" name="Your Name"
+                   id="" value="{{values.first_name}}" class="form-control form-control-sm" 
+                   placeholder="First Name and Last Name">
+           
+
+                <!-- firstname -->
+            
+                  <i class="fa fa-location-arrow"></i>
+                    <input type="text" name="Address"
+                     id="" value="{{values.first_name}}" class="form-control form-control-sm" 
+                     placeholder="Please enter your exact address">
+            
+
+                <!-- phone -->
+              
+                  <i class="fa fa-phone"></i>
+                    <input type="text" name="phone" 
+                    id="" class="form-control form-control-sm"
+                    value="{{values.phone}}"
+                    placeholder="+98912*****22"
+                    >
+          
+       
+                <button type="submit" class="btn btn-sm btn-success col-lg-12">Complete purchase</button>
+              
+            </form>
+          </div>
+  </div>
+
+</body>
+</html>
+{% endblock %}
+
+
